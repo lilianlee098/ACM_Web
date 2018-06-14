@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+
+body{
+    margin: 0px;
+}
+
+/*header*/
+header{
+    width: auto;
+    height: 500px;
+    background-color: darkred
+}
+
+header img{
+    
+}
+
+/*about*/
+.about{
+    background-color: white;
+    width: auto;
+    height: 350px;
+}
+
+/*services*/
+.services{
+   width: auto;
+    height: 600px;
+    background-color: darkgrey
+}
+
+/*contact*/
+.contact{
+    width: auto;
+    height: 800px;
+    background-color: white;
+}
+
+/*footer*/
+footer{
+    
+}
