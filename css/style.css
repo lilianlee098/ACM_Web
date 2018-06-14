@@ -2,6 +2,7 @@
 
 body{
     margin: 0px;
+    font-family: 'Open+Sans', sans-serif;
 }
 
 /*header*/
@@ -20,6 +21,29 @@ header img{
     background-color: white;
     width: auto;
     height: 350px;
+    text-align: center;
+}
+
+.abouttext{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+.abouttext p:last-of-type{
+    padding-bottom: 20px;
+}
+.abouttext a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.abouttext a:hover{
+    color: darkred;
 }
 
 /*services*/
