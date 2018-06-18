@@ -9,7 +9,9 @@ body{
 header{
     width: auto;
     height: 500px;
+    background-image: url("header.jpg");
     background-color: darkred
+        
 }
 
 header img{
