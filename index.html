@@ -43,7 +43,7 @@
             </div>
             </div>
              <div class="row1">
-            <div class="times">
+            <div class="times2">
             <h2>Mandarin Service</h2>
                 <p>Saturdays 6:30pm - 7:30pm</p>
             </div>
@@ -56,7 +56,30 @@
         </section>
         
         <!-- contact -->
-        <section class="contact"></section>
+        <section class="contact">
+        
+            <h1> CONTACT US</h1>
+            <h2>Anglican Chinese Mission Office &amp; Auditorium</h2>
+            <p>30-50 Glenmore Street, Northland, Wellington, 6012, New Zealand</p>
+            <p>Phone:	+64 4 472 8543 |	Email: enquiry.acm@gmail.com</p>
+            
+            <div id="map"></div>
+            <script>
+            
+                function myMap(){
+                    var mapOptions={
+                        center: new google.maps.LatLng(-41.2812893,174.76486439999996),
+                        zoom: 10;
+                    }
+                    var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+                }
+                
+            </script>
+            
+            <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+            
+        </section>
 
         <footer></footer>
         

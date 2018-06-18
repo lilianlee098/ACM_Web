@@ -20,7 +20,7 @@ header img{
 .about{
     background-color: white;
     width: auto;
-    height: 450px;
+    height: 420px;
     text-align: center;
 }
 
@@ -70,11 +70,20 @@ header img{
     margin-left: auto;
     margin-right: auto;
 }
-.times h2{
+
+.times2{
+    color: white;
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services h2{
     font-size: 1.563em;
 }
 
-.times p{
+.services p{
     font-weight: 400px;
     font-size: 1.25em;
     padding-bottom: 20px;
@@ -85,6 +94,38 @@ header img{
     height: 800px;
     background-color: white;
 }
+
+.contact h1{
+    text-align: center;
+    font-size: 4em;
+}
+
+.contact h2{
+     font-size: 1.563em;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.contact p{
+    font-weight: 400px;
+    font-size: 1.125em;
+    text-align: center;
+    margin: 0px;
+}
+
+.contact p:last-of-type{
+    margin-top: 40px;
+}
+
+#map{
+    width: 960px;
+    height: 430px;
+    background-color: lightgrey;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
 
 /*footer*/
 footer{
@@ -112,9 +153,11 @@ footer{
     .times{
         float: left;
     }
-    .times:nth-child(){
-        
+    .times2{
+        float:left;
+        margin-top: 30px;
     }
+    
 }
 /* large devices(desktops, 992px and up) */
 @media (min-width: 992px){
@@ -130,6 +173,12 @@ footer{
     }
     .row1{
         width: 700px;
+    }
+    .times:nth-of-type(1){
+        margin-right: 100px;
+    }
+    .times2{
+        margin-right:100px; 
     }
 }
 /*extra large devices (large desktop, 1200px and up) */
